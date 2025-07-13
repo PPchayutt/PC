@@ -1,18 +1,15 @@
 #include <stdio.h>
 
 int main() {
-    int number;
-    int first_two;
-    int last_three;
-    int result;
+    int p1;
+    int p2;
+    int final_num;
 
-    scanf("%d", &number);
+    scanf("%2d%3d", &p1, &p2);
 
-    last_three = number % 1000;
-    first_two = number / 1000;
-    result = (last_three * 100) + first_two;
+    final_num = (p2 * 100) + p1;
 
-    printf("%d\n", result);
+    printf("%d\n", final_num);
 
     return 0;
 }
