@@ -3,7 +3,7 @@
 int main() {
     int a = 17, b = 25, c = 50, d = 10;
 
-    //Statements Here🥀
+    // Statements Here🥀
 
     return 0;
 }
