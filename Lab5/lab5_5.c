@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    int m, n;
+    int n;
 
-    scanf("%d %d", &m, &n);
+    scanf("%d", &n);
 
-    if (m > n) {
-        for (int i = m; i >= n; i--) {
+    if (n >= 0) {
+        for (int i = n; i >= 0; i--) {
             printf("%d ", i);
         }
     } else {
-        for (int i = m; i <= n; i++) {
+        for (int i = n; i <= 0; i++) {
             printf("%d ", i);
         }
     }
