@@ -6,7 +6,7 @@ int main() {
 
     scanf("%[^\n]", text);
 
-    for (int i=0; i<101; i++) {
+    for (int i = 0; i < 101; i++) {
         if (text[i] == '\0') {
             break;
         }
