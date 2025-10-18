@@ -12,7 +12,7 @@ void setup() {
 
 void loop() {
     // เปิด LED
-  digitalWrite+(RED_PIN, HIGH);  // ตั้งค่าให้ LED ติด
+  digitalWrite(RED_PIN, HIGH);  // ตั้งค่าให้ LED ติด
   delay(1000);    
   digitalWrite(GREEN_PIN, HIGH);
   delay(1000);    
